@@ -26,7 +26,4 @@ section .blockColm .box {
   .filter-button-group {
     text-align: left;
   }
-  .filter-button{
-    margin-bottom:10px;
-  }
 }
