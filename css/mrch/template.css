@@ -1,0 +1,51 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url("../../fonts/Roboto-Light.ttf");
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face{
+    font-family: 'Roboto-Regular';
+    src: url("../../fonts/Roboto-Regular.ttf");
+    font-style: normal;
+    font-weight: 100;
+}
+button,
+.button {
+  background: #504B4B;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #96ACB4; 
+  margin-top:6px; padding-left: 40px; padding-right: 40px; 
+  font: 700 29px "Roboto-Regular", sans-serif;
+  
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background: #56c2ea;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  
+}
+button:hover,
+.button:hover {
+  background: #CDE0DD;
+}
+
+
+.mrchbut:focus {
+  background: #FBE338;
+}
+button i {
+  position: relative;
+}
+
+
+
+
